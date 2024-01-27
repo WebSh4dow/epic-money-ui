@@ -1,0 +1,55 @@
+.category-card, .list-card {
+    width: 300px;
+    margin: 20px auto;
+  }
+  
+  .list-card {
+    margin-top: 20px; /* Adiciona espaço entre os dois cards */
+  }
+
+  table {
+    width: 100%;
+  }
+  
+  tr.detail-row {
+    height: 0;
+  }
+  
+  tr.element-row:not(.example-expanded-row):hover {
+    background: whitesmoke;
+  }
+  
+  tr.element-row:not(.example-expanded-row):active {
+    background: #efefef;
+  }
+  
+  .element-row td {
+    border-bottom-width: 0;
+  }
+  
+  .element-detail {
+    overflow: hidden;
+    display: flex;
+  }
+  
+
+  .element-description {
+    padding: 16px;
+  }
+  
+
+  .category-card {
+    width: 70%; /* Define a largura das tabelas para 50% para que elas fiquem lado a lado */
+    margin: 20px auto; /* Centraliza os cards e adiciona espaçamento entre eles */
+  }
+
+  .floating-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #4ca287;
+  }
+  
+  
+
+  

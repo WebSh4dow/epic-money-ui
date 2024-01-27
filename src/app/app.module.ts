@@ -31,13 +31,15 @@ import { HomeComponent } from './components/home/home.component';
 import { HeaderComponent } from './components/header/header.component';
 import { MatTreeModule } from '@angular/material/tree';
 import {MatMenuModule} from '@angular/material/menu'; 
+import { CategoriasComponent } from './components/categorias/categorias.component';
 
 @NgModule({
     declarations:[
         AppComponent,
         NavComponent,
         HomeComponent,
-        HeaderComponent
+        HeaderComponent,
+        CategoriasComponent
     ],
     imports:[
         BrowserModule,

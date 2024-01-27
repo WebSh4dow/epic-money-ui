@@ -9,7 +9,8 @@ export const routes: Routes = [
 
   {
     path: '', component: NavComponent, children: [
-      { path: 'home', component: HomeComponent }
+      { path: 'home', component: HomeComponent },
+      { path: 'categorias', component:CategoriasComponent}
     ]
   }
 ];
@@ -17,5 +18,6 @@ export const routes: Routes = [
 @NgModule({
     imports: [RouterModule.forRoot(routes)],
     exports: [RouterModule]
-  })
+})
+
 export class AppRoutingModule {}

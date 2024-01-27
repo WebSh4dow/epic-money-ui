@@ -20,6 +20,5 @@ export class NavComponent implements OnInit {
     this.cadastroSubMenuOpen = !this.cadastroSubMenuOpen;
   }
 
-  navigateToCadastros() {
-  }
+  
 }
